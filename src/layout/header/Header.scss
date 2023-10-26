@@ -1,0 +1,38 @@
+.Header {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25em;
+    box-sizing: border-box;
+
+    .Header-Profile-Pic > img {
+        height: 10em;
+        width: 10em;
+        border-radius: 100%;
+    }
+
+    h1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .Header-Contact-Links {
+        list-style-type: none;
+        display: flex;
+        gap: 1em;
+        flex: 1;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
+
+        li {
+            flex: 0;
+            font-size: 2em;
+        }
+    }
+}
