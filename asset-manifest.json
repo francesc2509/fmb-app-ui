@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fmb-app-ui/static/css/main.fb0ffdb8.css",
+    "main.js": "/fmb-app-ui/static/js/main.fbd76284.js",
+    "static/js/787.ca23a50e.chunk.js": "/fmb-app-ui/static/js/787.ca23a50e.chunk.js",
+    "index.html": "/fmb-app-ui/index.html",
+    "main.fb0ffdb8.css.map": "/fmb-app-ui/static/css/main.fb0ffdb8.css.map",
+    "main.fbd76284.js.map": "/fmb-app-ui/static/js/main.fbd76284.js.map",
+    "787.ca23a50e.chunk.js.map": "/fmb-app-ui/static/js/787.ca23a50e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb0ffdb8.css",
+    "static/js/main.fbd76284.js"
+  ]
+}
