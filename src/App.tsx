@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './App.scss';
-import { Header, Nav } from './layout';
+import { Header, Main, Nav } from './layout';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import routes from './common/routes';
 
@@ -19,7 +19,7 @@ function App() {
       </div>
 
       <div className="App-Main">
-        <main>
+        <Main>
           <Routes>
             {routes.map(({ path, element }) => {
               return <Route key={path} path={path} element={element} />
@@ -28,7 +28,7 @@ function App() {
             {/* <Route path="/not-found" element={<NotFound />} /> */}
             <Route path="*" element={<Navigate to="/not-found" />} />
           </Routes>
-        </main>
+        </Main>
       </div>
     </div>
   );
