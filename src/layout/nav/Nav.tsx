@@ -1,8 +1,9 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+import routes from '../../common/routes';
 
 import './Nav.scss';
-import routes from '../../common/routes';
-import { NavLink } from 'react-router-dom';
 
 
 const Nav = () => {

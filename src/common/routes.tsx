@@ -21,13 +21,13 @@ const routes: Route[] = [
     {
         path: '/skills',
         label: 'Skills',
-        icon: 'fa-solid fa-house',
+        icon: 'fa-solid fa-user-graduate',
         element: <Skills />
     },
     {
         path: '/about',
         label: 'About',
-        icon: 'fa-solid fa-house',
+        icon: 'fa-solid fa-address-book',
         element: <About />
     },
 ]

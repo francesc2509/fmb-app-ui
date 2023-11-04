@@ -1,0 +1,29 @@
+.Home {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://canarywharf.com/wp-content/uploads/2021/08/canary-wharf-art-on-the-estate-artworks-camille-walala-captivated-by-colour-3-1200x801-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .Home-Content {
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10%;
+        background-color: rgba($color: #111111, $alpha: 0.75);
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+
+        .Home-Content-Title {
+            font-size: 2.5em;
+        }
+
+        .Home-Content-Body {
+            font-size: 1.5em;
+        }
+    }
+
+}
